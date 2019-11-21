@@ -1,10 +1,12 @@
-const svgPath = document.querySelectorAll('.path');
+// 'for loops' in javaScript
 
-const svgText = anime({
-  targets: svgPath,
-  loop: true,
-  direction: 'alternate',
-  strokeDashoffset: [anime.setDashoffset, 0],
-  easing: 'easeInOutSine',
-  duration: 700,
-  delay: (el, i) => {return i * 500;} });
+for (var i = 0; i < 10; i = i + 1) {
+  alert(i);
+};
+
+var names = ["ALi", "Khaliq", "Hassan", "Sadiq"];
+for (var i = 0; i < names.length; i = i + 1) {
+    var name = names[i];
+    
+    alert(name);
+}
