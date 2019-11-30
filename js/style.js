@@ -12,12 +12,11 @@ for (var i = 0; i < names.length; i = i + 1) {
 };
 
 // js event handler
-
 (function () {
   var el = document.getElementById('div-class');
-
-  el.onclick = function () {
-    this.style.backgroundColor = 'green';
+  el.onclick = function() {
+    
+    el.style.backgroundColor = 'red';
   };
 
 }());
