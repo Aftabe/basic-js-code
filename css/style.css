@@ -7,8 +7,9 @@ h1 {
   text-align: center;
 }
 
-.div-class {
+#div-class {
   width: 100px;
   height: 100px;
   background: black;
-}
+  margin: 0 auto;
+};
