@@ -6,3 +6,9 @@
 h1 {
   text-align: center;
 }
+
+.div-class {
+  width: 100px;
+  height: 100px;
+  background: black;
+}
