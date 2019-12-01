@@ -20,3 +20,9 @@ for (var i = 0; i < names.length; i = i + 1) {
   };
 
 }());
+
+(function(){
+  var sl = document.getElementsByTagName('h3').innerHTML;
+
+  var ml = document.getElementsByTagName('h3').innerHTML = sl.toUppercase();
+}());
