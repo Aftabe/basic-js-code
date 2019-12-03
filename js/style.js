@@ -1,10 +1,10 @@
 // 'for loops' in javaScript
 
-for (var i = 0; i < 5; i = i + 1) {
+for (var i = 0; i < 1; i = i + 1) {
   alert(i);
 };
 
-var names = ["ALi", "Khaliq", "Hassan", "Sadiq"];
+var names = ["ALi", "Khaliq",];
 for (var i = 0; i < names.length; i = i + 1) {
   var name = names[i];
 
@@ -16,7 +16,7 @@ for (var i = 0; i < names.length; i = i + 1) {
   var el = document.getElementById('div-class');
   el.onclick = function() {
     
-    el.style.backgroundColor = 'blue';
+    el.style.backgroundColor = 'white';
   };
 
 }());
