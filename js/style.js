@@ -1,3 +1,11 @@
+// new line of js code
+var num = 7;
+
+var str = num.toString(); // '7'
+
+alert(typeof str);
+
+
 // 'for loops' in javaScript
 
 for (var i = 0; i < 1; i = i + 1) {
