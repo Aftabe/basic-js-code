@@ -3,6 +3,13 @@ var num = 7;
 
 var str = num.toString(); // '7'
 
+alert(str);
+
+// To khow the data type using 'typeof'.
+var num = 7;
+
+var str = num.toString(); // '7'
+
 alert(typeof str);
 
 
