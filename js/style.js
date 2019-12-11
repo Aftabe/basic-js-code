@@ -15,7 +15,7 @@ alert(typeof str);
 
 // 'for loops' in javaScript
 
-for (var i = 0; i < 1; i = i + 1) {
+for (var i = 0; i < 3; i = i + 1) {
   alert(i);
 };
 
