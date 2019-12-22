@@ -41,10 +41,3 @@ for (var i = 0; i < names.length; i = i + 1) {
 
   var ml = document.getElementsByTagName('h3').innerHTML = sl.toUppercase();
 }());
-
-
-// one line code for creating a function
-
-let name = prompt("What\'s your name?");
-
-document.getElementById('hey').innerHTML = "Hi darling " + name;
