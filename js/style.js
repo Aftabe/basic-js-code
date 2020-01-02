@@ -1,10 +1,4 @@
 // new line of js code
-var num = 7;
-
-var str = num.toString(); // '7'
-
-alert(str);
-
 // To khow the data type using 'typeof'.
 var num = 7;
 
@@ -15,7 +9,7 @@ alert(typeof str);
 
 // 'for loops' in javaScript
 
-for (var i = 0; i < 3; i = i + 1) {
+for (var i = 0; i < 2; i = i + 1) {
   alert(i);
 };
 
@@ -37,7 +31,7 @@ for (var i = 0; i < names.length; i = i + 1) {
 }());
 
 (function(){
-  var sl = document.getElementsByTagName('h3').innerHTML;
+  let sl = document.getElementsByTagName('h3').innerHTML;
 
-  var ml = document.getElementsByTagName('h3').innerHTML = sl.toUppercase();
+  let ml = document.getElementsByTagName('h3').innerHTML = sl.toUppercase();
 }());
