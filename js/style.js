@@ -12,7 +12,7 @@ for (var i = 0; i < 2; i = i + 1) {
   alert(i);
 };
 
-var names = ["ALi", "Khaliq",];
+var names = ["Welcome", "Jigars",];
 for (var i = 0; i < names.length; i = i + 1) {
   var name = names[i];
 
