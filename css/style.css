@@ -4,7 +4,7 @@
 }
 
 body {
-  background-color: rgb(216, 67, 154);
+  background-color: rgb(47, 226, 86);
   padding: 10px;
 }
 
@@ -15,7 +15,7 @@ h1 {
 #div-class {
   width: 150px;
   height: 150px;
-  background: black;
+  background: rgb(80, 67, 67);
   margin: 0 auto;
   border-radius: 100px;
   border: 5px solid yellowgreen;
