@@ -1,11 +1,3 @@
-// new line of js code
-// To khow the data type using 'typeof'.
-var num = 7,
-    str = num.toString(); // '7'
-
-alert(typeof str);
-
-
 // 'for loops' in javaScript
 
 for (var i = 0; i < 2; i = i + 1) {
