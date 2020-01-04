@@ -30,7 +30,7 @@ for (var i = 0; i < names.length; i = i + 1) {
 }());
 
 (function(){
-  let sl = document.getElementsByTagName('h3').innerHTML;
-
-  let ml = document.getElementsByTagName('h3').innerHTML = sl.toUppercase();
+  let sE = document.getElementsByTagName('h3').innerHTML;
+  let md = sE.toUppercase();
+  let mE = document.getElementsByTagName('h3').innerHTML = md;
 }());
