@@ -1,6 +1,6 @@
 // 'for loops' in javaScript
-
-for (var i = 0; i < 2; i = i + 1) {
+let index = 'This is a string value';
+for (var i = 0, len = index.length; i < len; i = i + 1) {
   alert(i);
 };
 
