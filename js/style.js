@@ -18,11 +18,23 @@ for (var i = 0; i < names.length; i = i + 1) {
     
     el.style.backgroundColor = 'white';
   };
-
+  
 }());
+
+// parseInt and parsFloat function
+var txt = parseInt('44', 10);
+var float = parseFloat('55.32', 10);
+
+
+alert(txt);
+alert(float);
+
+
+
 
 (function(){
   let sE = document.getElementsByTagName('h3').innerHTML;
   let md = sE.toUppercase();
   let mE = document.getElementsByTagName('h3').innerHTML = md;
 }());
+
