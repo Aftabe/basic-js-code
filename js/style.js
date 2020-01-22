@@ -38,3 +38,8 @@ alert(float);
   let mE = document.getElementsByTagName('h3').innerHTML = md;
 }());
 
+
+// This is how jv math object works
+document.getElementById("demo").innerHTML =
+Math.min(0, 150, 30, 20, -8, -200);
+
