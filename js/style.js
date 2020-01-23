@@ -5,7 +5,7 @@ for (var i = 0, len = index.length; i < len; i = i + 1) {
 };
 
 var names = ["Welcome", "Jigars",];
-for (var i = 0; i < names.length; i = i + 1) {
+for (var i = 0, len = names.length; i < len ; i = i + 1) {
   var name = names[i];
 
   alert(name);
@@ -42,4 +42,7 @@ alert(float);
 // This is how jv math object works
 document.getElementById("demo").innerHTML =
 Math.min(0, 150, 30, 20, -8, -200);
+
+document.getElementById("test").innerHTML =
+Math.max(0, 150, 30, 20, -8, -200);
 
