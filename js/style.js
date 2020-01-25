@@ -48,4 +48,4 @@ Math.max(0, 150, 30, 20, -8, -200);
 
 
 document.getElementById("demo").innerHTML =
-Math.min(0, 150, 30, 20, -8, -200, 234);
+Math.min(-30, -20, -10, 0, 10, 20, 30);
