@@ -4,9 +4,9 @@ for (var i = 0, len = index.length; i < len; i = i + 1) {
   alert(i);
 };
 
-var names = ["Welcome", "Jigars",];
+var persons = ["Welcome", "Jigars",];
 for (var i = 0, len = names.length; i < len ; i = i + 1) {
-  var name = names[i];
+  var name = persons[i];
 
   alert(name);
 };
