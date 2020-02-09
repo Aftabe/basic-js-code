@@ -16,7 +16,7 @@ for (var i = 0, len = names.length; i < len ; i = i + 1) {
   var el = document.getElementById('div-class');
   el.onclick = function() {
     
-    el.style.backgroundColor = 'grey';
+    el.style.backgroundColor = 'white';
   };
   
 }());
