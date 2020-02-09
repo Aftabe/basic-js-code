@@ -1,5 +1,5 @@
 // 'for loops' in javaScript
-let index = 'This is a string value';
+let index = 'This a string';
 for (var i = 0, len = index.length; i < len; i = i + 1) {
   alert(i);
 };
@@ -49,3 +49,16 @@ Math.max(0, 150, 30, 20, -8, -200);
 
 document.getElementById("demo").innerHTML =
 Math.min(-30, -20, -10, 0, 10, 20, 30);
+
+// How to add 'unorder' or 'order' lists to html page.
+var cars, cLen, text, i;
+cars = ['BM','Benz','Ford', 'Toyota'];
+cLen = cars.length;
+
+text = '<ol>';
+for(i = 0; i < cLen; i++) {
+    text += '<li>' + cars[i] + '</li>';
+}
+text += '</ol>';
+
+document.getElementById('demo').innerHTML = text;
