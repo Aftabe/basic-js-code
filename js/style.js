@@ -22,8 +22,8 @@ for (var i = 0, len = names.length; i < len ; i = i + 1) {
 }());
 
 // parseInt and parsFloat function
-var txt = parseInt('47', 10);
-var float = parseFloat('67.32', 10);
+var txt = parseInt('53', 10);
+var float = parseFloat('77.32', 10);
 
 
 alert(txt);
