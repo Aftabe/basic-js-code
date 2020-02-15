@@ -5,7 +5,7 @@ for (var i = 0, len = index.length; i < len; i = i + 1) {
 };
 
 (function () {
-  var persons = ["Welcome", "Jigars"];
+  var persons = ["Hey", "Jigars"];
   for (var i = 0, len = persons.length; i < len; i = i + 1) {
     var name = persons[i];
 
