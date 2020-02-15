@@ -1,8 +1,8 @@
 // 'for loops' in javaScript
-let index = 'This a string';
-for (var i = 0, len = index.length; i < len; i = i + 1) {
-  alert(i);
-};
+// let index = 'This a string';
+// for (var i = 0, len = index.length; i < len; i = i + 1) {
+//   alert(i);
+// };
 
 var persons = ["Welcome", "Jigars",];
 for (var i = 0, len = names.length; i < len ; i = i + 1) {
