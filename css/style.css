@@ -4,7 +4,7 @@
 }
 
 body {
-  background-color: rgb(103, 117, 134);
+  background-color: rgb(118, 129, 143);
   padding: 4px 7px;
 }
 
@@ -18,7 +18,7 @@ h1 {
   background: rgba(173, 58, 189, 0.808);
   margin: 0 auto;
   border-radius: 100px;
-  border: 5px solid rgb(97, 77, 77);
+  border: 3spx solid rgb(97, 77, 77);
   cursor: pointer;
 }
 
