@@ -1,5 +1,5 @@
 // 'for loops' in javaScript
-let index = 'This is a string';
+let index = 'string';
 for (var i = 0, len = index.length; i < len; i = i + 1) {
   alert(i);
 };
@@ -12,7 +12,7 @@ for (var i = 0, len = index.length; i < len; i = i + 1) {
     alert(name);
   }
 
-  persons();
+  // persons();
 
 }())
 
@@ -68,3 +68,14 @@ for (i = 0; i < cLen; i++) {
 text += '</ol>';
 
 document.getElementById('demo').innerHTML = text;
+(function(){
+var buttons = document.getElementsByTagName("button");
+
+for(var i = 0, len = buttons.length; i < len; i = i +1) {
+  buttons[i].onclick = function(){
+    var className = this.innerHTML.toLowerCase();
+
+    document.body.className = className;
+  };
+}
+}());
