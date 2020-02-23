@@ -14,7 +14,7 @@ for (var i = 0, len = index.length; i < len; i = i + 1) {
 
   // persons();
 
-}())
+}());
 
   // js event handler
   (function () {
@@ -38,11 +38,11 @@ alert(float);
 
 
 
-(function () {
-  let sE = document.getElementsByTagName('h3').innerHTML;
-  let md = sE.toUppercase();
-  let mE = document.getElementsByTagName('h3').innerHTML = md;
-}());
+// (function () {
+//   let sE = document.getElementsByTagName('h3').innerHTML;
+//   let md = sE.toUppercase();
+//   let mE = document.getElementsByTagName('h3').innerHTML = md;
+// }());
 
 
 // This is how jv math object works
