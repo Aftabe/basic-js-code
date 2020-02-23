@@ -28,3 +28,13 @@ h3 {
   margin: 7px auto;
   font-weight: bolder;
 }
+
+.normal{
+  background-color: white;
+  color: black;
+}
+
+.changed{
+  background-color: black;
+  color: white;
+}
