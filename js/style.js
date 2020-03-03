@@ -6,6 +6,9 @@ for (var i = 0, len = index.length; i < len; i = i + 1) {
   alert(name);
 };
 
+
+
+
 (function () {
   var persons = ["Hey", "Jigars"];
   for (var i = 0, len = persons.length; i < len; i = i + 1) {
