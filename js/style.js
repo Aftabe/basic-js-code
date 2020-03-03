@@ -1,17 +1,4 @@
-
-(function () {
-  var persons = ["Hey", "Jigars"];
-  for (var i = 0, len = persons.length; i < len; i = i + 1) {
-    var name = persons[i];
-
-    alert(name);
-  }
-
-  // persons();
-
-}());
-
-  // js event handler
+ // js event handler
   (function () {
     var el = document.getElementById('div-class');
     el.onclick = function () {
