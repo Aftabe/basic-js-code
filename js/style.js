@@ -1,13 +1,3 @@
-// 'for loops' in javaScript
-let index = 'string';
-for (var i = 0, len = index.length; i < len; i = i + 1) {
-  var name = index[i];
-
-  alert(name);
-};
-
-
-
 
 (function () {
   var persons = ["Hey", "Jigars"];
