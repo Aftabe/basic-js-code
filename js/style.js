@@ -36,15 +36,6 @@ alert(txt);
 alert(float);
 
 
-
-
-// (function () {
-//   let sE = document.getElementsByTagName('h3').innerHTML;
-//   let md = sE.toUppercase();
-//   let mE = document.getElementsByTagName('h3').innerHTML = md;
-// }());
-
-
 // This is how jv math object works
 document.getElementById("demo").innerHTML =
   Math.min(0, 150, 30, 20, -21, -200);
