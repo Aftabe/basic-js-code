@@ -15,10 +15,10 @@ h1 {
 #div-class {
   width: 150px;
   height: 150px;
-  background: rgba(173, 58, 189, 0.808);
+  background: rgba(217, 45, 240, 0.808);
   margin: 0 auto;
   border-radius: 100px;
-  border: 3spx solid rgb(97, 77, 77);
+  border: 3spx solid rgb(8, 175, 167);
   cursor: pointer;
 }
 

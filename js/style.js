@@ -23,7 +23,7 @@ for (var i = 0, len = index.length; i < len; i = i + 1) {
     var el = document.getElementById('div-class');
     el.onclick = function () {
 
-      el.style.backgroundColor = 'white';
+      el.style.backgroundColor = 'blue';
     };
     
 
@@ -40,10 +40,10 @@ alert(float);
 
 // This is how jv math object works
 document.getElementById("demo").innerHTML =
-  Math.min(0, 150, 30, 20, -21, -200);
+  Math.min(0, 150, 73, 20, -21, -200);
 
 document.getElementById("test").innerHTML =
-  Math.max(0, 150, 30, 20, -8, -200);
+  Math.max(0, 150, 85, 20, -8, -200);
 
 
 document.getElementById("demo").innerHTML =
