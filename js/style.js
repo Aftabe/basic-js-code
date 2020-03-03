@@ -23,8 +23,8 @@
   }());
 
 // parseInt and parsFloat function
-var txt = parseInt('53', 10);
-var float = parseFloat('77.32', 10);
+var txt = parseInt('53', 10); // Changing string to intigar number
+var float = parseFloat('77.32', 10); // changing string to decimal number
 
 
 alert(txt);
