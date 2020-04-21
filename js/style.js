@@ -3,8 +3,8 @@
     var el = document.getElementById('div-class');
     el.onclick = function() {
 
-      el.textContent = 'Click me!';
       el.style.backgroundColor = 'blue';
+      el.style.color  = white;
     };
     
 
