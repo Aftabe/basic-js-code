@@ -1,7 +1,7 @@
  // js event handler
   (function () {
     var el = document.getElementById('div-class');
-    el.onclick = function () {
+    el.onclick = function() {
 
       el.style.backgroundColor = 'blue';
     };
@@ -14,8 +14,8 @@ var txt = parseInt('53', 10); // Changing string to intigar number
 var float = parseFloat('77.32', 10); // changing string to decimal number
 
 
-alert(txt);
-alert(float);
+// alert(txt);
+// alert(float);
 
 
 // This is how jv math object works
