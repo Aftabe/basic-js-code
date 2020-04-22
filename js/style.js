@@ -53,3 +53,25 @@ for(var i = 0, len = buttons.length; i < len; i = i +1) {
   };
 }
 }());
+
+(function(){
+var text1 = doSomeColculation(2, 2);
+
+
+var text2 = doSomeColculation(3, 2);
+
+
+
+function doSomeColculation(paramOne, paramTwo){
+  paramOne = paramOne + 1;
+  paramOne = paramOne + 5;
+  paramOne = paramOne * 8;
+  return paramOne + paramTwo;
+}
+
+
+
+alert(text1);
+alert(text2);
+
+});
