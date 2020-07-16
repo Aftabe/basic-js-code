@@ -4,7 +4,8 @@
     el.onclick = function() {
 
       el.style.backgroundColor = 'blue';
-      el.style.color  = white;
+      el.style.color = 'white';
+      el.style.padding = '40px';
     };
     
 
