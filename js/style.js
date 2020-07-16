@@ -21,7 +21,7 @@ var float = parseFloat('77.32', 10); // changing string to decimal number
 
 
 // This is how jv math object works
-document.getElementById("demo").innerHTML =
+document.getElementById("demo1").innerHTML =
   Math.min(0, 150, 73, 20, -21, -200);
 
 document.getElementById("test").innerHTML =
@@ -76,3 +76,12 @@ alert(text1);
 alert(text2);
 
 });
+
+// This is a new js block
+(function(){
+ let tryBtn =  document.querySelector('.try');
+ tryBtn.onclick = function(){
+   document.querySelector('.alert').textContent = Math.min(12, 33, 99, -7);
+ }
+
+})();
