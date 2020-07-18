@@ -105,3 +105,15 @@ button{
 .try{
   padding: 5px 20px;
 }
+
+/* div-class */
+.div-class{
+  padding: 0;
+  margin: 0;
+  background-color: white;
+}
+
+
+.normal{
+  cursor: pointer;
+}
