@@ -1,10 +1,12 @@
  // js event handler
   (function () {
     var el = document.getElementById('div-class');
-    el.addEventListener('click', function(){
-      el.style.cursor = 'pointer';
-      el.style.backgroundColor = 'green';
-    })
+    el.onclick = function(){
+      el.style.backgroundColor = 'red';
+      el.innerHTML = 'let us see';
+      el.style.padding = '30px';
+    }
+    
     
 
   }());
