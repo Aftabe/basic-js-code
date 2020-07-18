@@ -85,3 +85,13 @@ alert(text2);
  }
 
 })();
+
+let normal = document.querySelector('.normal');
+let divClass = document.getElementById('div-class');
+
+normal.onclick = function(){
+
+  divClass.style.backgroundColor = 'white';
+  // divClass.innerHTML = 'let us see';
+  divClass.style.padding = '1px';
+}
