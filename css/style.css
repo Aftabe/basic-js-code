@@ -8,9 +8,21 @@ body {
   padding: 4px 7px;
 }
 
-.banner{
+
+/* style for body */
+.normal {
+  background-color: white;
+  color: black;
+}
+
+.changed {
+  background-color: black;
+  color: white;
+}
+
+.banner {
   min-height: 100vh;
-  background-image: linear-gradient(rgba(245, 241, 241, 0.712),rgba(0, 0, 0, 0.705)), url(/img/Cloud-motion.jpg);
+  background-image: linear-gradient(rgba(245, 241, 241, 0.712), rgba(0, 0, 0, 0.705)), url(/img/Cloud-motion.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   padding: 20px;
@@ -18,7 +30,7 @@ body {
 }
 
 /* row */
-.row{
+.row {
   height: 700px;
   display: flex;
   flex: wrap;
@@ -28,20 +40,23 @@ body {
   color: white;
 }
 
-.col{
+.col {
   width: 35%;
   /* padding: 20px; */
   margin-left: 80px;
 }
-.col h1{
-font-size: 50px;
+
+.col h1 {
+  font-size: 50px;
 }
-.col h1 span{
+
+.col h1 span {
   font-size: 60px;
   color: #adff2f;
 
 }
-.col p{
+
+.col p {
   margin: 5px auto;
   z-index: 3;
   position: absolute;
@@ -50,7 +65,7 @@ font-size: 50px;
   /* overflow: hidden; */
 }
 
-.icon-box{
+.icon-box {
   width: 180px;
   margin-top: 100px;
   margin-left: 0;
@@ -58,17 +73,18 @@ font-size: 50px;
   justify-content: space-between;
 }
 
-.icon-box li{
+.icon-box li {
   list-style-type: none;
   font-size: 30px;
   /* padding: 10px; */
   /* margin-left: 0 !important; */
 }
-.icon-box li:hover{
+
+.icon-box li:hover {
   color: #adff2f;
 }
 
-.icon-midle{
+.icon-midle {
   color: white;
   font-size: 300px;
   position: absolute;
@@ -82,19 +98,19 @@ font-size: 50px;
 }
 
 /* text box */
-.text-box{
+.text-box {
   text-align: center;
   padding: 20px;
 }
 
-button{
+button {
   padding: 7px 20px;
   margin: 10px;
 }
 
 
 /* div-class */
-#div-class{
+#div-class {
   width: 50px;
   height: 50%;
   background-color: greenyellow;
@@ -102,18 +118,18 @@ button{
 }
 
 /* try */
-.try{
+.try {
   padding: 5px 20px;
 }
 
 /* div-class */
-.div-class{
+.div-class {
   padding: 0;
   margin: 0;
   background-color: white;
 }
 
 
-.normal{
+.normal {
   cursor: pointer;
 }
