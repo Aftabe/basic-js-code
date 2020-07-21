@@ -1,5 +1,6 @@
 //  Variables
 var el = document.getElementById('div-class');
+let normal = document.querySelector('.normal');
 
 
  // js event handler
@@ -83,12 +84,11 @@ alert(text2);
 
 })();
 
-let normal = document.querySelector('.normal');
-let divClass = document.getElementById('div-class');
+// let divClass = document.getElementById('div-class');
 
 normal.onclick = function(){
 
-  divClass.style.backgroundColor = 'white';
+  el.style.backgroundColor = 'white';
   // divClass.innerHTML = 'let us see';
-  divClass.style.padding = '1px';
+  el.style.padding = '1px';
 }
