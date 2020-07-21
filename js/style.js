@@ -1,6 +1,9 @@
+//  Variables
+var el = document.getElementById('div-class');
+
+
  // js event handler
   (function () {
-    var el = document.getElementById('div-class');
     el.onclick = function(){
       el.style.backgroundColor = 'red';
       el.innerHTML = 'let us see';
