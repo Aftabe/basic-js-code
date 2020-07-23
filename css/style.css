@@ -1,0 +1,133 @@
+
+body {
+  background-color: rgb(118, 129, 143);
+  padding: 4px 7px;
+}
+
+
+/* style for body */
+.normal {
+  background-color: white;
+  color: black;
+  display: inline-block;
+  padding: 7px 10px;
+}
+
+.changed {
+  background-color: black;
+  color: white;
+}
+
+.banner {
+  min-height: 100vh;
+  background-image: linear-gradient(rgba(245, 241, 241, 0.712), rgba(0, 0, 0, 0.705)), url(/img/Cloud-motion.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 20px;
+  position: relative;
+}
+
+/* row */
+.row {
+  height: 700px;
+  display: flex;
+  flex: wrap;
+  /* justify-content: center; */
+  align-items: center;
+  /* background-color: green; */
+  color: white;
+}
+
+.col {
+  width: 35%;
+  /* padding: 20px; */
+  margin-left: 80px;
+}
+
+.col h1 {
+  font-size: 50px;
+}
+
+.col h1 span {
+  font-size: 60px;
+  color: #adff2f;
+
+}
+
+.col p {
+  margin: 5px auto;
+  z-index: 3;
+  position: absolute;
+  width: 500px;
+  /* display: block; */
+  /* overflow: hidden; */
+}
+
+.icon-box {
+  width: 180px;
+  margin-top: 100px;
+  margin-left: 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.icon-box li {
+  list-style-type: none;
+  font-size: 30px;
+  /* padding: 10px; */
+  /* margin-left: 0 !important; */
+}
+
+.icon-box li:hover {
+  color: #adff2f;
+}
+
+.icon-midle {
+  color: white;
+  font-size: 300px;
+  position: absolute;
+  top: 44%;
+  left: 55%;
+  transform: translate(-50%, -50%);
+  opacity: .3;
+  /* z-index: 1; */
+  background-color: inherit;
+  display: block;
+}
+
+/* text box */
+.text-box {
+  text-align: center;
+  padding: 20px;
+}
+
+button {
+  padding: 7px 20px;
+  margin: 10px;
+}
+
+
+/* div-class */
+#div-class {
+  width: 50px;
+  height: 50%;
+  background-color: greenyellow;
+  cursor: pointer;
+}
+
+/* try */
+.try {
+  padding: 5px 20px;
+}
+
+/* div-class */
+.div-class {
+  padding: 0;
+  margin: 0;
+  background-color: white;
+}
+
+
+.normal {
+  cursor: pointer;
+}
