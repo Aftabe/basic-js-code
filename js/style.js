@@ -1,81 +1,35 @@
-// 'for loops' in javaScript
-let index = 'string';
-for (var i = 0, len = index.length; i < len; i = i + 1) {
-  alert(i);
-};
-
-(function () {
-  var persons = ["Hey", "Jigars"];
-  for (var i = 0, len = persons.length; i < len; i = i + 1) {
-    var name = persons[i];
-
-    alert(name);
-  }
-
-  // persons();
-
-}());
-
-  // js event handler
-  (function () {
-    var el = document.getElementById('div-class');
-    el.onclick = function () {
-
-      el.style.backgroundColor = 'blue';
-    };
-    
-
-  }());
-
-// parseInt and parsFloat function
-var txt = parseInt('53', 10);
-var float = parseFloat('77.32', 10);
-
-
-alert(txt);
-alert(float);
-
-
-
-
-// (function () {
-//   let sE = document.getElementsByTagName('h3').innerHTML;
-//   let md = sE.toUppercase();
-//   let mE = document.getElementsByTagName('h3').innerHTML = md;
-// }());
-
-
-// This is how jv math object works
-document.getElementById("demo").innerHTML =
-  Math.min(0, 150, 73, 20, -21, -200);
-
-document.getElementById("test").innerHTML =
-  Math.max(0, 150, 85, 20, -8, -200);
-
-
-document.getElementById("demo").innerHTML =
-  Math.min(-30, -20, -10, 0, 10, 20, 30);
-
-// How to add 'unorder' or 'order' lists to html page.
-var cars, cLen, text, i;
-cars = ['BM', 'Benz', 'Ford', 'Toyota'];
-cLen = cars.length;
-
-text = '<ol>';
-for (i = 0; i < cLen; i++) {
-  text += '<li>' + cars[i] + '</li>';
+// js switch statement
+var day;
+switch (new Date().getDay()) {
+  case 0:
+    day = "Sunday";
+    break;
+  case 1:
+    day = "Monday";
+    break;
+  case 2:
+    day = "Tuesday";
+    break;
+  case 3:
+    day = "Wednesday";
+    break;
+  case 4:
+    day = "Thursday";
+    break;
+  case 5:
+    day = "Friday";
+    break;
+  case  6:
+    day = "Saturday";
 }
-text += '</ol>';
+document.getElementById("demo").innerHTML = "Today is " + day;
+// new date and using getDay method
 
-document.getElementById('demo').innerHTML = text;
-(function(){
-var buttons = document.getElementsByTagName("button");
+var d = new Date();
+var days = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
+document.write(days[d.getDay()]);
 
-for(var i = 0, len = buttons.length; i < len; i = i +1) {
-  buttons[i].onclick = function(){
-    var className = this.innerHTML.toLowerCase();
 
-    document.body.className = className;
-  };
-}
-}());
+document.getElementById('demo-clock').innerHTML = days[d.getDay()];
+
+console.log(days[d.getDay()]);
