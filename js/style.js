@@ -20,5 +20,4 @@
             document.body.className = inneCont;
         };
     }
-}()); 
-
+}());           
