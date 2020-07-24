@@ -129,3 +129,13 @@ button {
 .normal {
   cursor: pointer;
 }
+
+/* Green and Yellow btns */
+.GREEN{
+  color: white;
+  background-color: green;
+}
+.YELLOW{
+  color: white;
+  background-color: #acc425;
+}
