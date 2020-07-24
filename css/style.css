@@ -9,8 +9,6 @@ body {
 .normal {
   background-color: white;
   color: black;
-  display: inline-block;
-  padding: 7px 10px;
 }
 
 .changed {
