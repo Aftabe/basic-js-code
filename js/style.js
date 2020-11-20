@@ -8,4 +8,8 @@
             document.body.className = className;
         };
     }
-}());          
+}());    
+
+(function(){
+    
+}());
