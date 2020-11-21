@@ -11,5 +11,10 @@
 }());    
 
 (function(){
-    
+    function changeSomeThing(pra){
+        var text;
+        if(pra == 1){
+            
+        }
+    }
 }());
